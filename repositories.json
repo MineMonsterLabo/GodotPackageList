@@ -1,0 +1,93 @@
+{
+  "Packages": [
+    {
+      "Name": "Common",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "Folder": "Common",
+      "Dependencies": []
+    },
+    {
+      "Name": "CommonFonts",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "Folder": "CommonFonts",
+      "Dependencies": []
+    },
+    {
+      "Name": "ComponentSystem",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "Folder": "ComponentSystem",
+      "Dependencies": [
+        {
+          "Name": "Common",
+          "Version": "1.0.0.0",
+          "Expression": "a >= 1.0.0.0"
+        }
+      ]
+    },
+    {
+      "Name": "GDPackageManager",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "Folder": "GDPackageManager",
+      "Dependencies": [
+        {
+          "Name": "CommonFonts",
+          "Version": "1.0.0.0",
+          "Expression": "a >= 1.0.0.0"
+        }
+      ]
+    },
+    {
+      "Name": "MasterSystem",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "Folder": "MasterSystem",
+      "Dependencies": [
+        {
+          "Name": "Common",
+          "Version": "1.0.0.0",
+          "Expression": "a >= 1.0.0.0"
+        }
+      ]
+    },
+    {
+      "Name": "TestSystem",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "Folder": "TestSystem",
+      "Dependencies": [
+        {
+          "Name": "Common",
+          "Version": "1.0.0.0",
+          "Expression": "a >= 1.0.0.0"
+        },
+        {
+          "Name": "CommonFonts",
+          "Version": "1.0.0.0",
+          "Expression": "a >= 1.0.0.0"
+        }
+      ]
+    }
+  ]
+}
