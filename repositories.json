@@ -8,7 +8,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "Folder": "Common",
+      "RootFolder": "Common",
       "Dependencies": []
     },
     {
@@ -19,7 +19,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "Folder": "CommonFonts",
+      "RootFolder": "CommonFonts",
       "Dependencies": []
     },
     {
@@ -30,7 +30,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "Folder": "ComponentSystem",
+      "RootFolder": "ComponentSystem",
       "Dependencies": [
         {
           "Name": "Common",
@@ -47,7 +47,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "Folder": "GDPackageManager",
+      "RootFolder": "GDPackageManager",
       "Dependencies": [
         {
           "Name": "CommonFonts",
@@ -64,7 +64,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "Folder": "MasterSystem",
+      "RootFolder": "MasterSystem",
       "Dependencies": [
         {
           "Name": "Common",
@@ -81,7 +81,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "Folder": "TestSystem",
+      "RootFolder": "TestSystem",
       "Dependencies": [
         {
           "Name": "Common",
