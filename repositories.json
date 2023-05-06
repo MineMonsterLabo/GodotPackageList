@@ -8,7 +8,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "RootFolder": "Common",
+      "Folder": "Common",
       "Dependencies": []
     },
     {
@@ -19,7 +19,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "RootFolder": "CommonFonts",
+      "Folder": "CommonFonts",
       "Dependencies": []
     },
     {
@@ -30,7 +30,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "RootFolder": "ComponentSystem",
+      "Folder": "ComponentSystem",
       "Dependencies": [
         {
           "Name": "Common",
@@ -47,14 +47,30 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "RootFolder": "GDPackageManager",
+      "Folder": "GDPackageManager",
       "Dependencies": [
         {
           "Name": "CommonFonts",
           "Version": "1.0.0.0",
           "Expression": "a >= 1.0.0.0"
+        },
+        {
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0",
+          "Expression": "a >= 1.0.0.0"
         }
       ]
+    },
+    {
+      "Name": "LocalizeSystem",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "RepoName": "GodotShared",
+      "Folder": "LocalizeSystem",
+      "Dependencies": []
     },
     {
       "Name": "MasterSystem",
@@ -64,7 +80,7 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "RootFolder": "MasterSystem",
+      "Folder": "MasterSystem",
       "Dependencies": [
         {
           "Name": "Common",
@@ -74,6 +90,17 @@
       ]
     },
     {
+      "Name": "RuntimeKeyBinder",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "RepoName": "GodotShared",
+      "Folder": "RuntimeKeyBinder",
+      "Dependencies": []
+    },
+    {
       "Name": "TestSystem",
       "Description": "",
       "Author": "hiroki",
@@ -81,13 +108,8 @@
       "GodotSupportVersion": "3.x,4.x",
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
-      "RootFolder": "TestSystem",
+      "Folder": "TestSystem",
       "Dependencies": [
-        {
-          "Name": "Common",
-          "Version": "1.0.0.0",
-          "Expression": "a >= 1.0.0.0"
-        },
         {
           "Name": "CommonFonts",
           "Version": "1.0.0.0",
