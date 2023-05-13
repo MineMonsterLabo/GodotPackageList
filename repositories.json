@@ -48,6 +48,7 @@
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
       "RootFolder": "GDPackageManager",
+      "IsRestartEditor": true,
       "Dependencies": [
         {
           "Name": "CommonFonts",
@@ -70,6 +71,7 @@
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
       "RootFolder": "LocalizeSystem",
+      "IsRestartEditor": true,
       "Dependencies": []
     },
     {
@@ -81,6 +83,7 @@
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
       "RootFolder": "MasterSystem",
+      "IsRestartEditor": true,
       "Dependencies": [
         {
           "Name": "Common",
