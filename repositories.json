@@ -1,6 +1,22 @@
 {
   "Packages": [
     {
+      "Name": "CharacterController",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "RepoName": "GodotShared",
+      "RootFolder": "CharacterController",
+      "Dependencies": [
+        {
+          "Name": "RuntimeKeyBinder",
+          "Version": "1.0.0.0"
+        }
+      ]
+    },
+    {
       "Name": "Common",
       "Description": "",
       "Author": "hiroki",
@@ -9,7 +25,12 @@
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
       "RootFolder": "Common",
-      "Dependencies": []
+      "Dependencies": [
+        {
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
+        }
+      ]
     },
     {
       "Name": "CommonFonts",
@@ -33,9 +54,8 @@
       "RootFolder": "ComponentSystem",
       "Dependencies": [
         {
-          "Name": "Common",
-          "Version": "1.0.0.0",
-          "Expression": "a >= 1.0.0.0"
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
         }
       ]
     },
@@ -52,13 +72,11 @@
       "Dependencies": [
         {
           "Name": "CommonFonts",
-          "Version": "1.0.0.0",
-          "Expression": "a >= 1.0.0.0"
+          "Version": "1.0.0.0"
         },
         {
           "Name": "LocalizeSystem",
-          "Version": "1.0.0.0",
-          "Expression": "a >= 1.0.0.0"
+          "Version": "1.0.0.0"
         }
       ]
     },
@@ -86,9 +104,30 @@
       "IsRestartEditor": true,
       "Dependencies": [
         {
-          "Name": "Common",
-          "Version": "1.0.0.0",
-          "Expression": "a >= 1.0.0.0"
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
+        }
+      ]
+    },
+    {
+      "Name": "NetLib",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "RepoName": "GodotShared",
+      "RootFolder": "NetLib",
+      "InstallNugetPackages": [
+        {
+           "Name": "System.IO.Hashing",
+           "Version": "7.0.0"
+        }
+      ],
+      "Dependencies": [
+        {
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
         }
       ]
     },
@@ -101,7 +140,12 @@
       "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
       "RepoName": "GodotShared",
       "RootFolder": "RuntimeKeyBinder",
-      "Dependencies": []
+      "Dependencies": [
+        {
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
+        }
+      ]
     },
     {
       "Name": "TestSystem",
@@ -115,8 +159,11 @@
       "Dependencies": [
         {
           "Name": "CommonFonts",
-          "Version": "1.0.0.0",
-          "Expression": "a >= 1.0.0.0"
+          "Version": "1.0.0.0"
+        },
+        {
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
         }
       ]
     }
