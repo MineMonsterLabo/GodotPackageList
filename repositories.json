@@ -81,6 +81,28 @@
       ]
     },
     {
+      "Name": "JavaScriptEngine",
+      "Description": "",
+      "Author": "hiroki",
+      "Version": "1.0.0.0",
+      "GodotSupportVersion": "3.x,4.x",
+      "GitUrl": "https://github.com/hiroki19990625/GodotShared.git",
+      "RepoName": "GodotShared",
+      "RootFolder": "JavaScriptEngine",
+      "InstallNugetPackages": [
+        {
+           "Name": "Jint",
+           "Version": "3.0.0-beta-2049"
+        }
+      ],
+      "Dependencies": [
+        {
+          "Name": "LocalizeSystem",
+          "Version": "1.0.0.0"
+        }
+      ]
+    },
+    {
       "Name": "LocalizeSystem",
       "Description": "",
       "Author": "hiroki",
